@@ -20,5 +20,5 @@ express -c stylus Node-ExpressJS
 
 ###4. run my app
 ```
-node app.js
+node app.js  and open http://127.0.0.1:3000 you'll see the Express home page.
 ```
