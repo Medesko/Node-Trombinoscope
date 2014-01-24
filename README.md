@@ -18,7 +18,7 @@ npm install -g express
 express -c stylus Node-ExpressJS 
 ```
 
-###3. run my app
+###4. run my app
 ```
 node app.js
 ```
