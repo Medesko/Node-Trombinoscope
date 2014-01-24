@@ -1,4 +1,4 @@
-## Mini-site Trombinoscope
+## Facebook Connect with Node
 ###1 Structure
 
 ```
