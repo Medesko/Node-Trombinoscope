@@ -1,4 +1,4 @@
-## Node-ExpressJS mini-site Trombinoscope
+## Mini-site Trombinoscope
 ###1 Structure
 
 ```
