@@ -22,3 +22,8 @@ express -c stylus Node-ExpressJS
 ```
 node app.js  and open http://127.0.0.1:3000 you'll see the Express home page.
 ```
+###5. Start MongoDB
+### make sure mongodb drive is installed  and 
+```
+mongod --dbpath /Users/medesko/Node-Trombinoscope/db 
+```
