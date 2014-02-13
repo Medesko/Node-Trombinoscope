@@ -1,9 +1,5 @@
 ## Facebook Connect with Node
-###1 Structure
 
-```
-
-```
 ###1.First let's install express
 ```
  First let's install express 
