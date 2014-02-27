@@ -1,0 +1,24 @@
+extends layout
+
+block content
+		h1= title
+		h2 Mon photos
+		ul
+			each photo, i in medias.photos
+				li
+				a( class="photobox" href="photos/#{photo._id}")
+					img(src= photo.src width="229" height="229")
+
+		h2 Ma musiques
+		ul
+			each musique, i in medias.musiques
+				li
+				a( class="playlink" href="musiques/#{musique._id}")
+					spam(class="play" )
+					img(src= musique.src)
+
+		h2 Mes films
+		ul
+			each film, i in medias.films
+				li
+				a( class="photobox" href="videos/#{film._id}")= film.src

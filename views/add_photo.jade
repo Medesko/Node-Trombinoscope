@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	h1= title
+	if message
+		p= message
+	else
+		form(method="post", action="/medias/add_photo", enctype="multipart/form-data")
+			fieldset
+				legend Devise
+				label= "Name"
+					input(type="text", name="title")
+				input(type="file", name="image", multiple="multiple")
+			fieldset
+				legend Valider
+				input(type="submit")

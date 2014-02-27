@@ -1,0 +1,106 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #5c7883;
+  color: #ffffff;
+}
+h1{
+  text-transform: uppercase;
+}
+a {
+  border: 1px solid #9DCC4D;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9em;
+  float: left;
+  height: 48px;
+  line-height: 48px;
+  text-decoration: none;
+  width: 20%;
+  text-align: center;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ECC34', endColorstr='#8EC919', GradientType=0);
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+a:hover {
+	color: #fff;
+	border: 1px solid #C6E77;
+	-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, .2));
+	-moz-box-shadow: 0 3px 7px rgba(0, 0, 0, .2);
+	box-shadow: 0 3px 7px rgba(0, 0, 0, .2);
+}
+ul{
+  float: left;
+  width: 100%;
+  height: auto;
+
+}
+ul li {
+  list-style-type: none;
+  float: left;
+  margin-right:15px;
+  margin-top: 10px;
+
+  padding: 0
+}
+.photobox{
+  border: 1px solid #ffffff;
+  color: #fff;
+  font-weight: 600;
+  float: left;
+  width: 229px;
+  height: 229px;
+  line-height: 48px;
+  text-decoration: none;
+  text-align: center;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ECC34', endColorstr='#8EC919', GradientType=0);
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.playlink{
+  border: 1px solid #ffffff;
+  color: #fff;
+  font-weight: 600;
+  float: left;
+  width: 229px;
+  height: 229px;
+  line-height: 48px;
+  text-decoration: none;
+  text-align: center;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ECC34', endColorstr='#8EC919', GradientType=0);
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+.play {
+  position: absolute;
+  font-size: 4em;
+  top: 48%;
+  left: 40%;
+  height: 114px;
+  width: 116px;
+  line-height: 0.7em;
+  text-align: center;
+  padding: 0 0 0 0.13em;
+  margin: -0.95em 0 0 -0.95em;
+  background-color: transparent;
+  background: url(../images/GooglePlay.png) no-repeat center center;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+}
